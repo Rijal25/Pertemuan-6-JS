@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Kalkulator Sederhana</title>
+    <style>
+        .content {
+            background-color: aquamarine;
+            width: 25%;
+            height: 0 auto;
+            margin-left: 37%;
+            border-radius: 50px;
+        }       
+        h1 {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 20px;
+        }
+        h2 {  
+            text-align: center;
+            color: brown;
+        }
+        div {
+            padding: 10px;
+            text-align: center;
+        }
+        input {
+            width: 40%;
+            height: 20px;
+            border-radius: 10px;
+        }
+        button {
+            background-color: brown;
+            border-radius: 20px;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Rizal Mila Pambudi/PPL</h1>
+    <div class="content">
+        <h2>Program Kalkulator Sederhana</h2>
+        <div>
+            <input type="number" id="angka1"> <br> <br>
+            <select id="operator">
+                <option value="+">+,Penjumlahan</option>
+                <option value="-">-,Pengurangan</option>
+                <option value="*">*,Perkalian</option>
+                <option value="/">/,Pembagian</option>
+            </select> <br> <br>
+            <input type="number" id="angka2"> <br> <br>
+            <button id="submit" onclick="hitung()">Submit</button> <br> <br>
+            <input type="text" id="hasil">     
+        </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
